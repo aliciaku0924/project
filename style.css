@@ -1,0 +1,30 @@
+h1 {
+   text-align: center;
+}
+p {
+   text-align: center;
+}
+.chart-container {
+  position: relative;
+  height:40vh;
+  width:80vw;
+  margin: auto;
+}
+#date {
+  font-weight: bold;
+}
+
+#caveat {
+
+  font-style:oblique;
+  font-size: 6pt;
+  color: grey;
+
+}
+#source {
+
+  font-style:oblique;
+  font-size: 6pt;
+  color: grey;
+
+}
