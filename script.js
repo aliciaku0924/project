@@ -157,7 +157,7 @@ for (let i=0; i<ID_supersector.length; i++){
   let xhr = new XMLHttpRequest();
   xhr.addEventListener("load", responseReceivedHandler);
   xhr.responseType = "json";
-  let APIkey = "";
+  let APIkey = "897a9a22662b40c1afa62e186b6e803a";
   let endQuery = "?registrationkey="+APIkey
   console.log("https://api.bls.gov/publicAPI/v2/timeseries/data/"+ID_prefix+ID_seasonal+ID_supersector[i]+ID_industry+ID_datatype+endQuery);
   xhr.open("GET","https://api.bls.gov/publicAPI/v2/timeseries/data/"+ID_prefix+ID_seasonal+ID_supersector[i]+ID_industry+ID_datatype+endQuery);
